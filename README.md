@@ -51,3 +51,11 @@ ls | grep ".txt"   # Use output from one command as input for another
 Background Processes:
 
 sleep 10 &         # Run command in the background
+
+### Compile the source code:
+
+make
+
+### Run the shell:
+
+./ish
