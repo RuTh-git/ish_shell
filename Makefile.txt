@@ -1,0 +1,12 @@
+CC = gcc
+CFLAGS =
+
+SRC = ish.c
+EXE = ish
+
+$(EXE): $(SRC)
+	$(CC) $(CFLAGS) -o $@ $^
+
+.PHONY: clean
+clean:
+	rm -f $(EXE)
